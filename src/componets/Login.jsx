@@ -49,7 +49,7 @@ function Login() {
             to="/signup"
             className="text-blue-600 font-medium hover:underline transition"
           >
-            Sign Up
+            SingIn
           </Link>
         </p>
 

@@ -36,13 +36,13 @@ function Signup() {
             <Logo width="100%" />
           </span>
         </div>
-        <h2 className="text-center text-2xl font-bold leading-tight">
+        <h2 className="text-center text-black text-2xl font-bold leading-tight">
           Sign up to create account
         </h2>
         <p className="mt-2 text-center text-base text-black/60">
           Already have an account?&nbsp;
           <Link to="/login" className="font-medium text-primary transition-all duration-200 hover:underline">
-            Sign In
+            Login
           </Link>
         </p>
         {error && (
@@ -59,6 +59,7 @@ function Signup() {
                         />
                         <Input
                         label="Email: "
+                        
                         placeholder="Enter your email"
                         type="email"
                         {...register("email", {
@@ -71,6 +72,7 @@ function Signup() {
                         />
                         <Input
                         label="Password: "
+                       
                         type="password"
                         placeholder="Enter your password"
                         {...register("password", {

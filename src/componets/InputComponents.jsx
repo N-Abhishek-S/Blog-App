@@ -23,7 +23,7 @@ const InputComponents = forwardRef(function InputComponents(
     <div className="w-full">
       {label && (
         <label //if user pass label then show this component otherwise it will not show
-          className="inline-block pl-1 mb-1"
+          className="inline-block pl-1 mb-1 text-black"
           htmlFor={id}
         >
           {/*The htmlFor attribute links a <label> element to an input element by specifying the id of the input.
